@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sin título. Escriba su nombre. Ejercicios. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco.
+    www.mclibre.org</title>
+  <style>
+    body {
+      background: #997366;
+      width: 80%;
+      margin: 0 auto;
+      text-align: justify;
+      font-family: sans-serif;
+    }
+
+    .header {
+      background: #998680;
+      padding: 0 6px 0 6px;
+      margin-top: 6px;
+      /* quiero que el header se separe del body 6px */
+
+    }
+
+    .titulo {
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .subtitulo {
+      background: white;
+      font-size: 19px;
+      margin-top: 0;
+
+    }
+
+
+    .capitalismo,
+    .politica {
+      /* Aplicame los mismos estilos tanto al tag con class capitalimo como al tag con class politica*/
+      background: #B29F99;
+      margin-top: 1rem;
+      padding-bottom: 0.5rem;
+
+    }
+
+    /* DE todas las secciones que me encuentres, a la primera, y solo a esa, aplicame un margin-top:0*/
+
+    section:first-child {
+      margin-top: 0;
+    }
+
+    /* 
+    .capitalismo {
+      margin-top: 0;
+    } */
+
+    .citas {
+      border: 1px solid white;
+      padding: 6px;
+    }
+
+    /** Aplica estos estilos CSS a todos los DIV que sean descendientes del <main> que tengla la class="citas"*/
+    main.citas div {
+      width: 80%;
+      margin: 16px auto;
+      border: 5px solid rgb(64, 45, 38);
+      line-height: 1.5rem;
+      color: white;
+      padding: 0.3rem 0.2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+
+    <h1 class="titulo">Citas de Gilbert Keith Chesterton</h1>
+
+    <p>
+      Gilbert Keith Chesterton (Londres, 29 de mayo de 1874 - Beaconsfield, 14 de junio de 1936), más conocido como G.
+      K.
+      Chesterton, fue un escritor y periodista británico de inicios del siglo XX, calificado a menudo como el "príncipe
+      de
+      las paradojas". Cultivó, entre otros géneros, el ensayo, la narración, la biografía, la lírica, el periodismo y el
+      libro de viajes.
+    </p>
+    <p>
+
+      Su personaje más famoso es el Padre Brown, un sacerdote católico de apariencia ingenua, cuya agudeza psicológica
+      hace
+      de él un detective formidable, y que protagonizó más de cincuenta historias reunidas en cinco volúmenes,
+      publicados
+      entre 1911 y 1935.
+    </p>
+  </header>
+  <main class="citas">
+    <section class="capitalismo">
+      <h2 class="subtitulo">Capitalismo</h2>
+
+      <div>Un ciudadano apenas puede distinguir un impuesto de una multa, salvo que la multa suele ser más
+        barata.</div>
+
+      <div>"Demasiado capitalismo" no significa "demasiados capitalistas", sino "demasiados pocos
+        capitalistas".</div>
+
+      <div>
+        El capitalismo es ese sistema comercial que proporciona respuestas inmediatas ante cualquier demanda y en el que
+        todo
+        el mundo parece totalmente insatisfecho e incapaz de conseguir lo que desea.
+      </div>
+    </section>
+    <section class="politica">
+      <h2 class="subtitulo">Política</h2>
+      <div>
+
+        Nunca habrá una revolución para establecer una democracia. Debe haber democracia para poder llevar a cabo una
+        revolución.
+      </div>
+
+      <div>
+        Cuando un político está en la oposición, es experto en los medios para conseguir algo, y cuando está en el
+        Gobierno,
+        es experto en los obstáculos que impiden conseguirlo.
+      </div>
+
+      <div>
+        El mundo moderno se divide a sí mismo en Conservadores y Progresistas. La misión de los Progresistas es cometer
+        errores. La misión de los Conservadores es evitar que los errores se corrijan.
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-color:#997366 ;
+}
+main{
+   background-color:#998680 ; 
+   width: 80%;
+   margin-left: 10%;
+   margin-right: 10%;
+   padding-left: 1%;
+}
+h2{
+    
+    background-color: white;
+}
+.recuadro{
+    background-color: #997366;
+    border: 1px solid white;
+    width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 1%;
+}
+section{
+background-color: #b69992;
+padding-bottom: 0.83em;
+margin-right: 1%;
+}
+.frase {
+    border: 5px solid rgb(64, 45, 38);
+        width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 10px;
+        padding: 1%;
+        color: white;
+}
